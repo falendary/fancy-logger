@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Example</title>
+</head>
+<body>
+
+<script src="../dist/js/fancy-logger.js"></script>
+
+<script>
+
+    window.fancyLoggerTheme = 'dark';
+
+    fancyLogger.controller('ShellController', 'initialized', 4);
+    fancyLogger.collection('Portfolio items', [{name: 'item1'}, {name: 'item2'}], 4);
+    fancyLogger.property('Foo', '132.2', 10);
+    fancyLogger.component('Breadcrumb component', 'initialized', 4);
+    fancyLogger.service('DataService', 'initialized', 4);
+    console.log('                             ');
+    fancyLogger.controller('ShellController', 'initialized');
+    fancyLogger.collection('Portfolio items', [{name: 'item1'}, {name: 'item2'}]);
+    fancyLogger.property('Foo', '132.2');
+    fancyLogger.component('Breadcrumb component', 'initialized');
+    fancyLogger.service('DataService', 'initialized');
+</script>
+
+</body>
+</html>

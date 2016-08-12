@@ -1,0 +1,34 @@
+{
+  "name": "fancy-logger",
+  "version": "1.0.0",
+  "description": "Customized web-tools logging system to comfort develop",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/falendary/fancy-logger"
+  },
+  "keywords": [
+    "log",
+    "web",
+    "tools",
+    "chrome",
+    "logging"
+  ],
+  "author": "Sergey Zhitenev",
+  "license": "MIT",
+  "devDependencies": {
+    "browserify": "^13.1.0",
+    "del": "^2.2.1",
+    "event-stream": "^3.3.4",
+    "gulp": "^3.9.1",
+    "gulp-insert": "^0.5.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^2.0.0",
+    "path": "^0.12.7",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
