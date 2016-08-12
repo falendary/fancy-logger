@@ -33,26 +33,26 @@ fancyLogger.controller(controllerName, message, importance, customCSS)
 fancyLogger.collection(collectionName, collection, importance, customCSS)
  ```
  
-   #### .property 
+#### .property 
  Print property value
  ```sh
 fancyLogger.property(propertyName, property, importance, customCSS)
  ```
  
- #### .component 
+#### .component 
  Print component
  ```sh
 fancyLogger.collection(componentName, component, importance, customCSS)
  ```
  
-   #### .service 
+#### .service 
  Print service status
  ```sh
 fancyLogger.service(serviceName, message, importance, customCSS)
  ```
  
- ## Warning
+## Warning
  
- Passing custom css disables **importance** (describes opacity of log) property
+Passing custom css disables **importance** (describes opacity of log) property
  
  
